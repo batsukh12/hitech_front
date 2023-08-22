@@ -147,7 +147,6 @@ export default function PopularProducts() {
                                     margin={1}
                                     borderRadius={"5rem"}
                                     padding={"0.2rem"}
-                                    onClick={() => saveProducts(item._id)}
                                   >
                                     <FavoriteIcon
                                       sx={{ color: "#fe5900" }}
